@@ -142,7 +142,7 @@ if selected == 'Wine Quality Prediction':
 
             # Predict using the loaded model
 
-            prediction = loaded_model.predict(input_data)
+            prediction = wine_model.predict(input_data)
 
             
 
